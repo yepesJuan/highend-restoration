@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import FloatingCallButton from '@/components/layout/FloatingCallButton';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { company } from '@/lib/data/company';
 import '../globals.css';
 
@@ -76,6 +77,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} className={inter.variable}>
+      <GoogleAnalytics />
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header />

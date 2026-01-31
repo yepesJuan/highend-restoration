@@ -3,22 +3,25 @@
 ## Project Overview
 Complete website rebuild for a family-owned restoration business serving South Florida for 20+ years.
 
-**Live URL:** https://highend-restoration.vercel.app
-**Domain:** highendrestoration.org (pending DNS setup)
+**Live URL:** https://www.highendrestoration.org
+**Domain:** highendrestoration.org ✓
 
 ## Tech Stack
 - Next.js 14 (App Router)
 - TypeScript
 - Tailwind CSS
+- next-intl (i18n - English/Spanish)
 - HubSpot CRM (contact form)
 - Vercel hosting
 
 ## Key Files & Structure
 ```
-/app                    → Pages (Next.js App Router)
-/components/layout      → Header, Footer, FloatingCallButton
+/app/[locale]           → Locale-aware pages (Next.js App Router)
+/components/layout      → Header (with language switcher), Footer, FloatingCallButton
 /components/sections    → Hero, ServicesGrid, ContactSection, etc.
 /components/ui          → ContactForm, ImageGallery
+/i18n                   → next-intl config (routing.ts, navigation.ts, request.ts)
+/messages               → Translation files (en.json, es.json)
 /lib/data              → services.ts, areas.ts, company.ts, images.ts
 /public/images         → Service photos organized by category
 /docs/plans            → Design documentation
@@ -41,11 +44,12 @@ Complete website rebuild for a family-owned restoration business serving South F
 - Palm Beach County
 - West Palm Beach
 
-## Pages (33 total)
-- Homepage, About, Contact, Services hub
-- 6 individual service pages
-- 18 local SEO pages (6 services × 3 areas)
+## Pages (66 total - bilingual)
+- Homepage, About, Contact, Services hub (x2 locales)
+- 6 individual service pages (x2 locales)
+- 18 local SEO pages (6 services × 3 areas) (x2 locales)
 - Sitemap.xml, robots.txt
+- **Languages:** English (/en), Spanish (/es)
 
 ## Contact Info
 - **Phone:** 305-989-5986
@@ -60,9 +64,28 @@ vercel --prod    # Deploy to Vercel
 ```
 
 ## Pending Tasks
-- [ ] Connect custom domain in Vercel dashboard
-- [ ] Set up Google Analytics (need GA4 Measurement ID)
-- [ ] Add Google Search Console verification
+
+### Infrastructure
+- [x] Connect custom domain in Vercel dashboard
+- [x] Set up Google Analytics (GA4: G-4ST9R05VNJ)
+- [x] Add Google Search Console verification
+
+### i18n (Spanish Support) - Verification
+- [ ] Test language switcher on all pages (EN/ES toggle)
+- [ ] Verify hreflang tags in page source
+- [ ] Check sitemap.xml includes both /en and /es URLs
+- [ ] Have native Spanish speaker review translations
+- [ ] Test contact form submission in Spanish
+
+### SEO
+- [ ] Add Spanish-specific keywords to metadata
+- [x] Submit updated sitemap to Google Search Console
+- [ ] Verify JSON-LD schemas render correctly in both languages
+
+### Optional Enhancements
+- [ ] Auto-redirect based on browser language preference
+- [ ] Add testimonials/reviews section
+- [ ] Add before/after project gallery
 
 ## Design Decisions
 - **Style:** Warm & approachable (family business feel)
