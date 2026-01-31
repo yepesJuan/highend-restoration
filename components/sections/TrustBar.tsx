@@ -8,7 +8,7 @@ const trustItems = [
   },
   {
     icon: HiBadgeCheck,
-    title: '16 Years',
+    title: '20 Years',
     description: 'Experience',
   },
   {

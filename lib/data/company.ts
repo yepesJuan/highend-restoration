@@ -7,11 +7,11 @@ export const company = {
   email: 'highendrestoration1@gmail.com',
   instagram: 'highend_restoration',
   instagramUrl: 'https://instagram.com/highend_restoration',
-  yearsInBusiness: 16,
-  foundedYear: 2010,
+  yearsInBusiness: 20,
+  foundedYear: 2006,
   tagline: 'Restoring What Matters Most',
   description:
-    'Family-owned restoration company serving South Florida for over 16 years. Specializing in water damage, fire restoration, mold remediation, and emergency services.',
+    'Family-owned restoration company serving South Florida for over 20 years. Specializing in water damage, fire restoration, mold remediation, and emergency services.',
   address: {
     region: 'South Florida',
     areas: ['Broward County', 'Palm Beach County', 'West Palm Beach'],
@@ -21,7 +21,7 @@ export const company = {
     isAlwaysOpen: true,
   },
   socialProof: {
-    yearsExperience: 16,
+    yearsExperience: 20,
     available24_7: true,
     familyOwned: true,
     licensedInsured: true,
@@ -29,6 +29,6 @@ export const company = {
 };
 
 export const hubspot = {
-  portalId: '245035855',
-  formId: 'a0578f9a-8455-4bbc-a736-296cfe6055ff',
+  portalId: process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID || '',
+  formId: process.env.NEXT_PUBLIC_HUBSPOT_FORM_ID || '',
 };

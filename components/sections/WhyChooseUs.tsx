@@ -11,7 +11,7 @@ const reasons = [
     icon: HiUserGroup,
     title: 'Experienced Technicians',
     description:
-      'With 16 years in the industry, our skilled technicians have the expertise to handle any restoration challenge.',
+      'With 20 years in the industry, our skilled technicians have the expertise to handle any restoration challenge.',
   },
   {
     icon: HiCog,

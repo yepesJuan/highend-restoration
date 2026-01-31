@@ -2,14 +2,14 @@
 
 ## Overview
 
-Complete rebuild of highendrestoration.org using modern tech stack. Family-owned restoration business serving South Florida for 16 years.
+Complete rebuild of highendrestoration.org using modern tech stack. Family-owned restoration business serving South Florida for 20 years.
 
 ## Business Context
 
 - **Company:** HighEnd Restoration
 - **Services:** Water damage, fire restoration, mold remediation, moisture inspection, smoke/odor removal, decontamination
 - **Service Areas:** Broward County, Palm Beach, West Palm Beach
-- **Experience:** 16 years
+- **Experience:** 20 years
 - **Contact:** 305-989-5986, highendrestoration1@gmail.com
 - **Domain:** highendrestoration.org
 
@@ -79,7 +79,7 @@ Each service × each location:
 
 ### Homepage
 1. Hero - Full-width image, headline, CTA, phone number
-2. Trust Bar - 24/7, 16 years, family-owned, licensed
+2. Trust Bar - 24/7, 20 years, family-owned, licensed
 3. Services Grid - 6 cards with icons
 4. Why Choose Us - 4 key differentiators
 5. Contact Section - Simple form + phone
@@ -104,8 +104,7 @@ Each service × each location:
 ### Contact Form
 - Fields: Name, Email, Phone, Message
 - Submits to HubSpot CRM
-- Hub ID: 245035855
-- Form ID: a0578f9a-8455-4bbc-a736-296cfe6055ff
+- Credentials stored in environment variables (see `.env.example`)
 
 ### Mobile Experience
 - Floating call button (bottom-right)
@@ -170,7 +169,7 @@ Each service × each location:
 ### HubSpot Form Submission
 ```typescript
 // POST to HubSpot Forms API
-const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/245035855/a0578f9a-8455-4bbc-a736-296cfe6055ff`;
+const endpoint = `https://api.hsforms.com/submissions/v3/integration/submit/${process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID}/${process.env.NEXT_PUBLIC_HUBSPOT_FORM_ID}`;
 ```
 
 ### Analytics Setup

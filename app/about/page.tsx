@@ -32,7 +32,7 @@ const values = [
     icon: HiUserGroup,
     title: 'Community First',
     description:
-      'We\'ve served South Florida families for 16 years. This community is our home, and we\'re committed to protecting it.',
+      'We\'ve served South Florida families for 20 years. This community is our home, and we\'re committed to protecting it.',
   },
 ];
 
