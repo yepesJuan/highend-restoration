@@ -1,4 +1,7 @@
-import Link from 'next/link';
+'use client';
+
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { HiArrowRight } from 'react-icons/hi';
 import {
   HiOutlineBeaker,
@@ -28,15 +31,28 @@ const colorMap: Record<string, string> = {
   biohazard: 'bg-biohazard/10 text-biohazard',
 };
 
+// Map service slugs to translation keys
+const serviceTranslationKeys: Record<string, string> = {
+  'water-damage-restoration': 'waterDamage',
+  'fire-restoration': 'fireRestoration',
+  'mold-restoration': 'moldRestoration',
+  'moisture-mold-inspection': 'moistureInspection',
+  'smoke-odor-removal': 'smokeOdor',
+  decontamination: 'decontamination',
+};
+
 export default function ServicesGrid() {
+  const t = useTranslations('servicesSection');
+  const ts = useTranslations('services');
+  const tc = useTranslations('common');
+
   return (
     <section className="section-padding bg-cream">
       <div className="container-main">
         <div className="text-center mb-12">
-          <h2 className="heading-2 mb-4">Our Services</h2>
+          <h2 className="heading-2 mb-4">{t('title')}</h2>
           <p className="text-lg text-charcoal/70 max-w-2xl mx-auto">
-            Professional restoration services for water, fire, mold, and more.
-            We&apos;re here when you need us most.
+            {t('subtitle')}
           </p>
         </div>
 
@@ -44,6 +60,7 @@ export default function ServicesGrid() {
           {services.map((service) => {
             const Icon = iconMap[service.icon] || FaWater;
             const colorClass = colorMap[service.color] || colorMap.water;
+            const translationKey = serviceTranslationKeys[service.slug];
 
             return (
               <Link
@@ -57,13 +74,13 @@ export default function ServicesGrid() {
                   <Icon className="w-7 h-7" />
                 </div>
                 <h3 className="heading-3 mb-2 group-hover:text-terracotta transition-colors">
-                  {service.shortName}
+                  {ts(`${translationKey}.shortName`)}
                 </h3>
                 <p className="text-charcoal/70 mb-4 line-clamp-2">
-                  {service.description}
+                  {ts(`${translationKey}.description`)}
                 </p>
                 <span className="inline-flex items-center text-terracotta font-medium">
-                  Learn more
+                  {tc('learnMore')}
                   <HiArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </span>
               </Link>

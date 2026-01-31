@@ -1,0 +1,571 @@
+{
+  "common": {
+    "getHelpNow": "Obtener Ayuda Ahora",
+    "callUsAnytime": "Llámenos en cualquier momento",
+    "callNow": "Llamar Ahora",
+    "learnMore": "Más información",
+    "viewServiceArea": "Ver área de servicio",
+    "contactUs": "Contáctenos",
+    "sendMessage": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "services": "Servicios",
+    "serviceAreas": "Áreas de Servicio",
+    "backToServices": "← Volver a Servicios",
+    "requestService": "Solicitar Servicio",
+    "getFreeEstimate": "Obtener Presupuesto Gratis",
+    "requestConsultation": "Solicitar una Consulta",
+    "requestFreeEstimate": "Solicitar Presupuesto Gratis",
+    "goHome": "Ir al Inicio",
+    "callUs": "Llámenos",
+    "callForAssistance": "Llame para Asistencia Inmediata"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "es": "ES",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "hero": {
+    "badge": "Respuesta de Emergencia 24/7",
+    "title": "Restaurando Lo Que",
+    "titleHighlight": "Más Importa",
+    "subtitle": "{years} Años Sirviendo a Familias del Sur de Florida",
+    "serviceAreas": "Condado de Broward • Palm Beach • West Palm Beach",
+    "trustLicensed": "Licenciados y Asegurados",
+    "trustFamily": "Empresa Familiar",
+    "trustFast": "Respuesta Rápida",
+    "imageLabels": {
+      "truck": "HighEnd Restoration",
+      "waterDamage": "Restauración de Daños por Agua",
+      "fireRestoration": "Restauración por Incendio",
+      "moldRestoration": "Restauración de Moho",
+      "moistureInspection": "Inspección de Humedad y Moho",
+      "smokeOdor": "Eliminación de Humo y Olores",
+      "decontamination": "Descontaminación"
+    }
+  },
+  "trustBar": {
+    "emergency": {
+      "title": "Emergencia 24/7",
+      "description": "Siempre disponibles"
+    },
+    "experience": {
+      "title": "20 Años",
+      "description": "de Experiencia"
+    },
+    "familyOwned": {
+      "title": "Empresa Familiar",
+      "description": "y Operada"
+    },
+    "licensed": {
+      "title": "Licenciados",
+      "description": "y Asegurados"
+    }
+  },
+  "servicesSection": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Servicios profesionales de restauración para daños por agua, incendio, moho y más. Estamos aquí cuando más nos necesita."
+  },
+  "whyChooseUs": {
+    "title": "Por Qué Elegir HighEnd Restoration",
+    "subtitle": "Cuando ocurre un desastre, necesita una empresa de restauración en la que pueda confiar. Por eso las familias del Sur de Florida nos eligen.",
+    "fastResponse": {
+      "title": "Tiempos de Respuesta Rápidos",
+      "description": "Entendemos que las emergencias no pueden esperar. Nuestro equipo responde rápidamente para minimizar daños y comenzar el proceso de restauración inmediatamente."
+    },
+    "experienced": {
+      "title": "Técnicos Experimentados",
+      "description": "Con 20 años en la industria, nuestros técnicos capacitados tienen la experiencia para manejar cualquier desafío de restauración."
+    },
+    "equipment": {
+      "title": "Equipo Avanzado",
+      "description": "Usamos equipo de grado industrial y las últimas técnicas para asegurar una restauración completa y efectiva."
+    },
+    "family": {
+      "title": "Lo Tratamos Como Familia",
+      "description": "Como empresa familiar, entendemos lo estresante que puede ser el daño a la propiedad. Estamos aquí para ayudarle en cada paso del camino."
+    }
+  },
+  "contactSection": {
+    "title": "¿Listo para Comenzar?",
+    "subtitle": "Contáctenos ahora para una consulta gratuita. Respondemos a todas las consultas dentro de 1 hora durante el horario laboral, e inmediatamente para emergencias.",
+    "callUsAnytime": "Llámenos en cualquier momento",
+    "emailUs": "Escríbanos",
+    "availability": "Disponibilidad",
+    "servingAreas": "Sirviendo el Condado de Broward, Palm Beach y West Palm Beach",
+    "formTitle": "Envíenos un Mensaje"
+  },
+  "contactForm": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "¿Cómo podemos ayudarle?",
+    "required": "*",
+    "placeholders": {
+      "firstName": "Juan",
+      "lastName": "García",
+      "email": "juan@ejemplo.com",
+      "phone": "(555) 123-4567",
+      "message": "Cuéntenos sobre su situación..."
+    },
+    "success": {
+      "title": "¡Gracias!",
+      "message": "Hemos recibido su mensaje y le contactaremos pronto."
+    },
+    "error": "Algo salió mal. Por favor intente de nuevo o llámenos directamente.",
+    "responseTime": "Normalmente respondemos dentro de 1 hora"
+  },
+  "footer": {
+    "services": "Servicios",
+    "serviceAreas": "Áreas de Servicio",
+    "contactUs": "Contáctenos",
+    "copyright": "© {year} {company}. Todos los derechos reservados."
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Un Negocio Familiar Construido en",
+      "titleHighlight": "Confianza",
+      "subtitle": "Por más de {years} años, HighEnd Restoration ha estado ayudando a familias del Sur de Florida a recuperarse de daños por agua, incendios, moho y otros desastres."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "p1": "HighEnd Restoration comenzó con una misión simple: ayudar a nuestros vecinos cuando ocurre un desastre. Lo que comenzó como una pequeña operación familiar ha crecido hasta convertirse en una de las empresas de restauración más confiables del Sur de Florida.",
+      "p2": "Durante los últimos {years} años, hemos ayudado a miles de familias y negocios a recuperarse de daños por agua, incendios, infestaciones de moho y otras emergencias. Entendemos que estas situaciones son estresantes, y estamos aquí para hacer el proceso de restauración lo más fácil posible.",
+      "p3": "Hoy, continuamos operando con los mismos valores familiares que lo iniciaron todo: honestidad, trabajo duro y genuino cuidado por nuestra comunidad. Cuando llama a HighEnd Restoration, no solo está contratando un contratista, está consiguiendo un equipo que realmente se preocupa por restaurar su propiedad y su tranquilidad.",
+      "yearsOfService": "Años de Servicio"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "subtitle": "Estos principios guían todo lo que hacemos, desde la primera llamada hasta la inspección final.",
+      "familyValues": {
+        "title": "Valores Familiares",
+        "description": "Como empresa familiar, tratamos a cada cliente como familia. Su hogar es su santuario, y lo respetamos."
+      },
+      "rapidResponse": {
+        "title": "Respuesta Rápida",
+        "description": "Los desastres no esperan, y nosotros tampoco. Nuestro equipo de emergencia 24/7 siempre está listo para ayudar cuando más nos necesita."
+      },
+      "quality": {
+        "title": "Trabajo de Calidad",
+        "description": "Nos enorgullecemos de nuestro trabajo. Cada proyecto se completa con los más altos estándares, asegurando que su propiedad esté completamente restaurada."
+      },
+      "community": {
+        "title": "Comunidad Primero",
+        "description": "Hemos servido a familias del Sur de Florida por 20 años. Esta comunidad es nuestro hogar, y estamos comprometidos a protegerla."
+      }
+    },
+    "serviceAreas": {
+      "title": "Sirviendo Orgullosamente al Sur de Florida",
+      "subtitle": "Desde Fort Lauderdale hasta West Palm Beach, estamos aquí para usted.",
+      "broward": {
+        "title": "Condado de Broward",
+        "cities": "Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs y más"
+      },
+      "palmBeach": {
+        "title": "Condado de Palm Beach",
+        "cities": "Boca Raton, Delray Beach, Boynton Beach, Jupiter y más"
+      },
+      "westPalm": {
+        "title": "West Palm Beach",
+        "cities": "West Palm Beach, Palm Beach Gardens, Royal Palm Beach y más"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Trabajar con Nosotros?",
+      "subtitle": "Ya sea una emergencia o solo tenga preguntas, estamos aquí para ayudar.",
+      "button": "Contáctenos Hoy"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Póngase en",
+      "titleHighlight": "Contacto",
+      "subtitle": "¿Necesita servicios de restauración de emergencia? ¿Tiene preguntas? Estamos aquí para ayudarle 24/7."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "subtitle": "Respondemos a todas las consultas rápidamente. Para emergencias, llámenos directamente para la respuesta más rápida.",
+      "phoneSubtitle": "Llámenos en cualquier momento, día o noche",
+      "emailSubtitle": "Respondemos dentro de 1 hora durante el horario laboral",
+      "emergencyService": "Servicio de Emergencia 24/7",
+      "emergencySubtitle": "Siempre estamos disponibles para emergencias",
+      "serviceAreasTitle": "Áreas de Servicio",
+      "serviceAreasSubtitle": "Condado de Broward, Condado de Palm Beach, West Palm Beach",
+      "instagramSubtitle": "Síganos para actualizaciones de proyectos"
+    },
+    "emergency": {
+      "title": "¿Tiene una emergencia?",
+      "callNow": "Llame al {phone} Ahora"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Nuestros",
+      "titleHighlight": "Servicios",
+      "subtitle": "Desde daños por agua hasta restauración por incendio, remediación de moho hasta descontaminación—tenemos la experiencia para manejar cualquier desafío de restauración. Disponibles 24/7 para emergencias."
+    },
+    "whatWeOffer": "Lo que ofrecemos:",
+    "learnMoreAbout": "Más información sobre {service}",
+    "serviceAreas": {
+      "title": "Sirviendo Todo el Sur de Florida",
+      "subtitle": "Proporcionamos servicios de restauración en todo el Condado de Broward, Condado de Palm Beach y West Palm Beach. No importa dónde esté, la ayuda está a solo una llamada."
+    },
+    "cta": {
+      "title": "¿Necesita Servicios de Restauración?",
+      "subtitle": "Estamos disponibles 24/7 para emergencias. Obtenga ayuda ahora."
+    }
+  },
+  "servicePage": {
+    "whatWeOffer": "Lo Que Ofrecemos",
+    "whatWeOfferSubtitle": "Nuestros servicios de {service} son completos y adaptados a su situación específica. Esto es lo que puede esperar cuando trabaja con nosotros:",
+    "whyChooseUs": "¿Por Qué Elegirnos para {service}?",
+    "whyChooseUsItems": {
+      "emergency": "Respuesta de emergencia 24/7—siempre estamos disponibles",
+      "experience": "{years} años de experiencia en restauración",
+      "licensed": "Técnicos licenciados, asegurados y certificados",
+      "family": "Empresa familiar comprometida con la calidad",
+      "insurance": "Asistencia con reclamos de seguro disponible"
+    },
+    "process": {
+      "title": "Nuestro Proceso de {service}",
+      "subtitle": "Seguimos un proceso probado para asegurar que su propiedad esté completamente restaurada con mínima interrupción."
+    },
+    "gallery": {
+      "title": "Nuestro Trabajo de {service}",
+      "subtitle": "Vea ejemplos de nuestros proyectos de {service} en todo el Sur de Florida."
+    },
+    "serviceAreas": {
+      "title": "Áreas de Servicio de {service}",
+      "subtitle": "Proporcionamos servicios de {service} en todo el Sur de Florida"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes"
+    },
+    "contact": {
+      "title": "¿Necesita Servicios de {service}?",
+      "subtitle": "Contáctenos ahora para una consulta gratuita. Respondemos a todas las consultas rápidamente, y estamos disponibles 24/7 para emergencias.",
+      "emergencyLine": "Línea de Emergencia 24/7"
+    }
+  },
+  "localServicePage": {
+    "breadcrumb": {
+      "services": "Servicios"
+    },
+    "hero": {
+      "title": "{service} en",
+      "servingAreas": "Sirviendo {cities}, y áreas circundantes"
+    },
+    "content": {
+      "title": "Servicios Confiables de {service} en {area}",
+      "p1": "Cuando ocurren emergencias de {service} en {fullArea}, necesita una empresa de restauración en la que pueda confiar. HighEnd Restoration ha estado sirviendo a familias de {area} por más de {years} años, proporcionando servicios de restauración rápidos y profesionales cuando más los necesita.",
+      "p2": "Como empresa local familiar, entendemos los desafíos únicos que enfrentan las propiedades de {fullArea}. Desde el clima húmedo de Florida hasta las tormentas estacionales, tenemos la experiencia y el equipo para manejar cualquier situación de {service}.",
+      "servicesInclude": "Nuestros Servicios de {service} Incluyen:"
+    },
+    "citiesWeServe": "Ciudades que Servimos en {area}",
+    "emergencyService": {
+      "title": "Servicio de Emergencia 24/7",
+      "subtitle": "Respondemos a emergencias de {service} en {area} las 24 horas."
+    },
+    "whyChooseUs": {
+      "title": "¿Por Qué Elegirnos?",
+      "local": "Locales en {area}—tiempos de respuesta rápidos",
+      "experience": "{years}+ años sirviendo al Sur de Florida",
+      "licensed": "Licenciados, asegurados y certificados",
+      "family": "Empresa familiar, enfocada en el cliente"
+    },
+    "process": {
+      "title": "Nuestro Proceso de {service}"
+    },
+    "otherAreas": {
+      "title": "También Sirviendo Áreas Cercanas",
+      "serviceIn": "{service} en {area}"
+    },
+    "contact": {
+      "title": "Obtenga Ayuda de {service} en {area}",
+      "subtitle": "Contáctenos ahora para un presupuesto gratis. Estamos disponibles 24/7 para emergencias y normalmente respondemos dentro de 1 hora.",
+      "emergencyLine": "Línea de Emergencia 24/7"
+    }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "subtitle": "Lo sentimos, no pudimos encontrar la página que busca. Puede que haya sido movida o no exista."
+  },
+  "services": {
+    "waterDamage": {
+      "name": "Restauración de Daños por Agua",
+      "shortName": "Daños por Agua",
+      "description": "Servicios rápidos y profesionales de extracción y secado de agua para proteger su propiedad de mayores daños. Respondemos 24/7 a emergencias de inundación.",
+      "features": {
+        "emergency": "Respuesta de emergencia 24/7",
+        "extraction": "Extracción profesional de agua",
+        "drying": "Equipo de secado de grado industrial",
+        "monitoring": "Monitoreo de humedad",
+        "insurance": "Asistencia con reclamos de seguro"
+      },
+      "process": {
+        "step1": {
+          "title": "Contacto de Emergencia",
+          "description": "Llámenos en cualquier momento, día o noche. Normalmente llegamos dentro de 1-2 horas."
+        },
+        "step2": {
+          "title": "Evaluación e Inspección",
+          "description": "Evaluamos el daño, identificamos la fuente de agua y creamos un plan de restauración."
+        },
+        "step3": {
+          "title": "Extracción y Secado",
+          "description": "Usando equipo industrial, removemos el agua y secamos completamente las áreas afectadas."
+        },
+        "step4": {
+          "title": "Restauración y Monitoreo",
+          "description": "Restauramos su propiedad y monitoreamos los niveles de humedad para prevenir el crecimiento de moho."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Qué tan rápido pueden responder a una emergencia de agua?",
+          "answer": "Ofrecemos servicios de emergencia 24/7 y normalmente llegamos dentro de 1-2 horas de su llamada."
+        },
+        "q2": {
+          "question": "¿Trabajan con compañías de seguros?",
+          "answer": "Sí, trabajamos directamente con todas las principales compañías de seguros y podemos ayudar con el proceso de reclamos."
+        }
+      }
+    },
+    "fireRestoration": {
+      "name": "Restauración por Incendio",
+      "shortName": "Daños por Incendio",
+      "description": "Restauración completa de daños por incendio incluyendo eliminación de humo, reparación estructural y limpieza de contenido. Le ayudamos a reconstruir después de la devastación.",
+      "features": {
+        "boardUp": "Servicios de emergencia para asegurar la propiedad",
+        "smoke": "Eliminación de humo y hollín",
+        "structural": "Limpieza estructural",
+        "content": "Restauración de contenido",
+        "odor": "Eliminación de olores"
+      },
+      "process": {
+        "step1": {
+          "title": "Respuesta de Emergencia",
+          "description": "Aseguramos su propiedad con servicios de protección y evaluamos el daño por incendio."
+        },
+        "step2": {
+          "title": "Evaluación de Daños",
+          "description": "Nuestro equipo documenta todos los daños para el seguro y crea un plan detallado de restauración."
+        },
+        "step3": {
+          "title": "Limpieza y Restauración",
+          "description": "Removemos escombros, limpiamos superficies y eliminamos olores de humo en toda la propiedad."
+        },
+        "step4": {
+          "title": "Restauración Final",
+          "description": "Restauramos su propiedad a su condición anterior al incendio, incluyendo cualquier reparación necesaria."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Pueden eliminar el olor a humo de mi casa?",
+          "answer": "Sí, usamos equipo y técnicas especializadas para eliminar completamente los olores de humo."
+        },
+        "q2": {
+          "question": "¿Cuánto tiempo toma la restauración por incendio?",
+          "answer": "Depende de la extensión del daño, pero la mayoría de los proyectos toman de 2-6 semanas en completarse."
+        }
+      }
+    },
+    "moldRestoration": {
+      "name": "Restauración de Moho",
+      "shortName": "Eliminación de Moho",
+      "description": "Servicios profesionales de remediación de moho para proteger la salud de su familia. Removemos el moho de manera segura y abordamos la fuente para prevenir recurrencia.",
+      "features": {
+        "removal": "Eliminación completa de moho",
+        "hepa": "Filtración de aire HEPA",
+        "antimicrobial": "Tratamientos antimicrobianos",
+        "source": "Identificación de la fuente",
+        "prevention": "Recomendaciones de prevención"
+      },
+      "process": {
+        "step1": {
+          "title": "Inspección y Evaluación",
+          "description": "Inspeccionamos su propiedad, identificamos el crecimiento de moho y determinamos la fuente de humedad."
+        },
+        "step2": {
+          "title": "Contención",
+          "description": "Aislamos las áreas afectadas para prevenir que las esporas de moho se propaguen durante la eliminación."
+        },
+        "step3": {
+          "title": "Eliminación y Tratamiento",
+          "description": "Usando filtración HEPA y tratamientos antimicrobianos, removemos todo el moho de manera segura."
+        },
+        "step4": {
+          "title": "Restauración y Prevención",
+          "description": "Restauramos las áreas afectadas y proporcionamos recomendaciones para prevenir crecimiento futuro."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Es el moho peligroso para mi salud?",
+          "answer": "Sí, el moho puede causar problemas respiratorios y reacciones alérgicas. Se recomienda eliminación profesional."
+        },
+        "q2": {
+          "question": "¿Volverá el moho después de la eliminación?",
+          "answer": "No si abordamos la fuente de humedad. Identificamos y ayudamos a arreglar la causa subyacente."
+        }
+      }
+    },
+    "moistureInspection": {
+      "name": "Inspección de Humedad y Moho",
+      "shortName": "Inspección",
+      "description": "Inspecciones completas de humedad y moho usando equipo de detección avanzado. La detección temprana previene daños costosos y riesgos de salud.",
+      "features": {
+        "thermal": "Detección con imágenes térmicas",
+        "moisture": "Lecturas de medidor de humedad",
+        "airQuality": "Pruebas de calidad del aire",
+        "reports": "Informes detallados de inspección",
+        "prevention": "Recomendaciones de prevención"
+      },
+      "process": {
+        "step1": {
+          "title": "Inspección Visual",
+          "description": "Examinamos completamente su propiedad en busca de señales visibles de daño por humedad o moho."
+        },
+        "step2": {
+          "title": "Detección Avanzada",
+          "description": "Usando cámaras térmicas y medidores de humedad, identificamos agua y moho ocultos."
+        },
+        "step3": {
+          "title": "Prueba de Calidad del Aire",
+          "description": "Probamos la calidad del aire interior para detectar esporas de moho y evaluar niveles de contaminación."
+        },
+        "step4": {
+          "title": "Informe Detallado",
+          "description": "Recibirá un informe completo con hallazgos y próximos pasos recomendados."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Cómo encuentran moho oculto?",
+          "answer": "Usamos imágenes térmicas y medidores de humedad para detectar moho detrás de paredes y bajo pisos."
+        },
+        "q2": {
+          "question": "¿Debería hacer una inspección antes de comprar una casa?",
+          "answer": "Sí, una inspección de humedad y moho puede revelar problemas ocultos antes de que compre."
+        }
+      }
+    },
+    "smokeOdor": {
+      "name": "Eliminación de Humo y Olores",
+      "shortName": "Eliminación de Olores",
+      "description": "Servicios profesionales de eliminación de humo y olores. No enmascaramos los olores—los eliminamos en la fuente usando técnicas avanzadas.",
+      "features": {
+        "ozone": "Tratamiento con ozono",
+        "fogging": "Nebulización térmica",
+        "airScrubbing": "Limpieza del aire",
+        "surface": "Limpieza de superficies",
+        "hvac": "Limpieza de HVAC"
+      },
+      "process": {
+        "step1": {
+          "title": "Evaluación de Olores",
+          "description": "Identificamos la fuente y extensión de la contaminación por humo u olores."
+        },
+        "step2": {
+          "title": "Tratamiento de la Fuente",
+          "description": "Tratamos la fuente de olores con agentes de limpieza y técnicas especializadas."
+        },
+        "step3": {
+          "title": "Tratamiento del Aire",
+          "description": "Usando generadores de ozono y purificadores de aire, purificamos el aire en toda su propiedad."
+        },
+        "step4": {
+          "title": "Verificación",
+          "description": "Verificamos la eliminación completa de olores y aseguramos su satisfacción."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Pueden eliminar el olor a cigarrillo de una casa?",
+          "answer": "Sí, nos especializamos en eliminar todo tipo de olores de humo, incluyendo años de humo de cigarrillo."
+        },
+        "q2": {
+          "question": "¿Cuánto tiempo toma la eliminación de olores?",
+          "answer": "La mayoría de los proyectos se completan dentro de 1-3 días, dependiendo de la severidad."
+        }
+      }
+    },
+    "decontamination": {
+      "name": "Descontaminación",
+      "shortName": "Descontaminación",
+      "description": "Servicios profesionales de limpieza de riesgos biológicos y descontaminación. Manejamos materiales peligrosos de manera segura y restauramos su propiedad a una condición segura.",
+      "features": {
+        "biohazard": "Limpieza de riesgos biológicos",
+        "trauma": "Restauración de escenas traumáticas",
+        "hazmat": "Eliminación de materiales peligrosos",
+        "disinfection": "Desinfección de grado hospitalario",
+        "disposal": "Protocolos apropiados de eliminación"
+      },
+      "process": {
+        "step1": {
+          "title": "Evaluación Inicial",
+          "description": "Evaluamos la situación y desarrollamos un plan seguro de limpieza y eliminación."
+        },
+        "step2": {
+          "title": "Contención y Seguridad",
+          "description": "Establecemos contención y usamos EPP apropiado para asegurar un manejo seguro."
+        },
+        "step3": {
+          "title": "Eliminación y Desinfección",
+          "description": "Removemos todos los materiales peligrosos y desinfectamos completamente todas las superficies."
+        },
+        "step4": {
+          "title": "Verificación y Restauración",
+          "description": "Verificamos que el área es segura y la restauramos a una condición limpia y habitable."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "¿Qué tipos de riesgos biológicos manejan?",
+          "answer": "Manejamos sangre, fluidos corporales, escenas traumáticas, situaciones de acumulación y otros riesgos biológicos."
+        },
+        "q2": {
+          "question": "¿Es este servicio confidencial?",
+          "answer": "Sí, mantenemos completa confidencialidad y usamos vehículos sin identificar cuando se solicita."
+        }
+      }
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "{company} | Restauración de Daños por Agua, Incendio y Moho en el Sur de Florida",
+      "description": "Empresa familiar de restauración sirviendo al Sur de Florida por más de 20 años. Especializados en daños por agua, restauración por incendio, remediación de moho y servicios de emergencia."
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "description": "Conozca a {company}, una empresa familiar de restauración sirviendo al Sur de Florida por más de {years} años."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Contacte a {company} para servicios de restauración de emergencia 24/7 en el Sur de Florida. Llame al {phone} o envíenos un mensaje."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "description": "Servicios profesionales de restauración incluyendo daños por agua, restauración por incendio, remediación de moho y más. Servicio de emergencia 24/7 en el Sur de Florida."
+    },
+    "service": {
+      "title": "{service} | Sur de Florida",
+      "description": "{description} Sirviendo el Condado de Broward, Palm Beach y West Palm Beach. Llame al {phone} para servicio de emergencia 24/7."
+    },
+    "localService": {
+      "title": "{service} en {area}",
+      "description": "Servicios profesionales de {service} en {area}, Florida. {years} años de experiencia. Servicio de emergencia 24/7. Llame al {phone}."
+    },
+    "notFound": {
+      "title": "Servicio No Encontrado"
+    }
+  }
+}

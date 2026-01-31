@@ -1,0 +1,571 @@
+{
+  "common": {
+    "getHelpNow": "Get Help Now",
+    "callUsAnytime": "Call us anytime",
+    "callNow": "Call Now",
+    "learnMore": "Learn more",
+    "viewServiceArea": "View service area",
+    "contactUs": "Contact Us",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "services": "Services",
+    "serviceAreas": "Service Areas",
+    "backToServices": "← Back to Services",
+    "requestService": "Request Service",
+    "getFreeEstimate": "Get Free Estimate",
+    "requestConsultation": "Request a Consultation",
+    "requestFreeEstimate": "Request a Free Estimate",
+    "goHome": "Go Home",
+    "callUs": "Call Us",
+    "callForAssistance": "Call for Immediate Assistance"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "es": "ES",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "hero": {
+    "badge": "24/7 Emergency Response",
+    "title": "Restoring What",
+    "titleHighlight": "Matters Most",
+    "subtitle": "{years} Years Serving South Florida Families",
+    "serviceAreas": "Broward County • Palm Beach • West Palm Beach",
+    "trustLicensed": "Licensed & Insured",
+    "trustFamily": "Family Owned",
+    "trustFast": "Fast Response",
+    "imageLabels": {
+      "truck": "HighEnd Restoration",
+      "waterDamage": "Water Damage Restoration",
+      "fireRestoration": "Fire Restoration",
+      "moldRestoration": "Mold Restoration",
+      "moistureInspection": "Moisture & Mold Inspection",
+      "smokeOdor": "Smoke & Odor Removal",
+      "decontamination": "Decontamination"
+    }
+  },
+  "trustBar": {
+    "emergency": {
+      "title": "24/7 Emergency",
+      "description": "Always available"
+    },
+    "experience": {
+      "title": "20 Years",
+      "description": "Experience"
+    },
+    "familyOwned": {
+      "title": "Family Owned",
+      "description": "& Operated"
+    },
+    "licensed": {
+      "title": "Licensed",
+      "description": "& Insured"
+    }
+  },
+  "servicesSection": {
+    "title": "Our Services",
+    "subtitle": "Professional restoration services for water, fire, mold, and more. We're here when you need us most."
+  },
+  "whyChooseUs": {
+    "title": "Why Choose HighEnd Restoration",
+    "subtitle": "When disaster strikes, you need a restoration company you can trust. Here's why South Florida families choose us.",
+    "fastResponse": {
+      "title": "Fast Response Times",
+      "description": "We understand emergencies can't wait. Our team responds quickly to minimize damage and start the restoration process immediately."
+    },
+    "experienced": {
+      "title": "Experienced Technicians",
+      "description": "With 20 years in the industry, our skilled technicians have the expertise to handle any restoration challenge."
+    },
+    "equipment": {
+      "title": "Advanced Equipment",
+      "description": "We use industrial-grade equipment and the latest techniques to ensure thorough, effective restoration."
+    },
+    "family": {
+      "title": "We Treat You Like Family",
+      "description": "As a family-owned business, we understand how stressful property damage can be. We're here to help every step of the way."
+    }
+  },
+  "contactSection": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Contact us now for a free consultation. We respond to all inquiries within 1 hour during business hours, and immediately for emergencies.",
+    "callUsAnytime": "Call us anytime",
+    "emailUs": "Email us",
+    "availability": "Availability",
+    "servingAreas": "Serving Broward County, Palm Beach, and West Palm Beach",
+    "formTitle": "Send Us a Message"
+  },
+  "contactForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "How can we help?",
+    "required": "*",
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "phone": "(555) 123-4567",
+      "message": "Tell us about your situation..."
+    },
+    "success": {
+      "title": "Thank You!",
+      "message": "We've received your message and will contact you shortly."
+    },
+    "error": "Something went wrong. Please try again or call us directly.",
+    "responseTime": "We typically respond within 1 hour"
+  },
+  "footer": {
+    "services": "Services",
+    "serviceAreas": "Service Areas",
+    "contactUs": "Contact Us",
+    "copyright": "© {year} {company}. All rights reserved."
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "A Family Business Built on",
+      "titleHighlight": "Trust",
+      "subtitle": "For over {years} years, HighEnd Restoration has been helping South Florida families recover from water damage, fire, mold, and other disasters."
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "HighEnd Restoration started with a simple mission: to help our neighbors when disaster strikes. What began as a small family operation has grown into one of South Florida's most trusted restoration companies.",
+      "p2": "Over the past {years} years, we've helped thousands of families and businesses recover from water damage, fires, mold infestations, and other emergencies. We understand that these situations are stressful, and we're here to make the restoration process as smooth as possible.",
+      "p3": "Today, we continue to operate with the same family values that started it all: honesty, hard work, and genuine care for our community. When you call HighEnd Restoration, you're not just getting a contractor—you're getting a team that truly cares about restoring your property and your peace of mind.",
+      "yearsOfService": "Years of Service"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "These principles guide everything we do, from the first phone call to the final walkthrough.",
+      "familyValues": {
+        "title": "Family Values",
+        "description": "As a family-owned business, we treat every customer like family. Your home is your sanctuary, and we respect that."
+      },
+      "rapidResponse": {
+        "title": "Rapid Response",
+        "description": "Disasters don't wait, and neither do we. Our 24/7 emergency team is always ready to help when you need us most."
+      },
+      "quality": {
+        "title": "Quality Workmanship",
+        "description": "We take pride in our work. Every job is completed to the highest standards, ensuring your property is fully restored."
+      },
+      "community": {
+        "title": "Community First",
+        "description": "We've served South Florida families for 20 years. This community is our home, and we're committed to protecting it."
+      }
+    },
+    "serviceAreas": {
+      "title": "Proudly Serving South Florida",
+      "subtitle": "From Fort Lauderdale to West Palm Beach, we're here for you.",
+      "broward": {
+        "title": "Broward County",
+        "cities": "Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs, and more"
+      },
+      "palmBeach": {
+        "title": "Palm Beach County",
+        "cities": "Boca Raton, Delray Beach, Boynton Beach, Jupiter, and more"
+      },
+      "westPalm": {
+        "title": "West Palm Beach",
+        "cities": "West Palm Beach, Palm Beach Gardens, Royal Palm Beach, and more"
+      }
+    },
+    "cta": {
+      "title": "Ready to Work With Us?",
+      "subtitle": "Whether it's an emergency or you just have questions, we're here to help.",
+      "button": "Contact Us Today"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in",
+      "titleHighlight": "Touch",
+      "subtitle": "Need emergency restoration services? Have questions? We're here to help 24/7."
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "We respond to all inquiries promptly. For emergencies, call us directly for the fastest response.",
+      "phoneSubtitle": "Call us anytime, day or night",
+      "emailSubtitle": "We respond within 1 hour during business hours",
+      "emergencyService": "24/7 Emergency Service",
+      "emergencySubtitle": "We're always available for emergencies",
+      "serviceAreasTitle": "Service Areas",
+      "serviceAreasSubtitle": "Broward County, Palm Beach County, West Palm Beach",
+      "instagramSubtitle": "Follow us for project updates"
+    },
+    "emergency": {
+      "title": "Have an emergency?",
+      "callNow": "Call {phone} Now"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our",
+      "titleHighlight": "Services",
+      "subtitle": "From water damage to fire restoration, mold remediation to decontamination—we have the expertise to handle any restoration challenge. Available 24/7 for emergencies."
+    },
+    "whatWeOffer": "What we offer:",
+    "learnMoreAbout": "Learn more about {service}",
+    "serviceAreas": {
+      "title": "Serving All of South Florida",
+      "subtitle": "We provide restoration services throughout Broward County, Palm Beach County, and West Palm Beach. No matter where you are, help is just a call away."
+    },
+    "cta": {
+      "title": "Need Restoration Services?",
+      "subtitle": "We're available 24/7 for emergencies. Get help now."
+    }
+  },
+  "servicePage": {
+    "whatWeOffer": "What We Offer",
+    "whatWeOfferSubtitle": "Our {service} services are comprehensive and tailored to your specific situation. Here's what you can expect when you work with us:",
+    "whyChooseUs": "Why Choose Us for {service}?",
+    "whyChooseUsItems": {
+      "emergency": "24/7 emergency response—we're always available",
+      "experience": "{years} years of experience in restoration",
+      "licensed": "Licensed, insured, and certified technicians",
+      "family": "Family-owned with a commitment to quality",
+      "insurance": "Insurance claim assistance available"
+    },
+    "process": {
+      "title": "Our {service} Process",
+      "subtitle": "We follow a proven process to ensure your property is fully restored with minimal disruption."
+    },
+    "gallery": {
+      "title": "Our {service} Work",
+      "subtitle": "See examples of our {service} projects throughout South Florida."
+    },
+    "serviceAreas": {
+      "title": "{service} Service Areas",
+      "subtitle": "We provide {service} services throughout South Florida"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    },
+    "contact": {
+      "title": "Need {service} Services?",
+      "subtitle": "Contact us now for a free consultation. We respond to all inquiries promptly, and we're available 24/7 for emergencies.",
+      "emergencyLine": "24/7 Emergency Line"
+    }
+  },
+  "localServicePage": {
+    "breadcrumb": {
+      "services": "Services"
+    },
+    "hero": {
+      "title": "{service} in",
+      "servingAreas": "Serving {cities}, and surrounding areas"
+    },
+    "content": {
+      "title": "Trusted {service} Services in {area}",
+      "p1": "When {service} emergencies strike in {fullArea}, you need a restoration company you can trust. HighEnd Restoration has been serving {area} families for over {years} years, providing fast, professional restoration services when you need them most.",
+      "p2": "As a local, family-owned business, we understand the unique challenges that {fullArea} properties face. From Florida's humid climate to seasonal storms, we have the experience and equipment to handle any {service} situation.",
+      "servicesInclude": "Our {service} Services Include:"
+    },
+    "citiesWeServe": "Cities We Serve in {area}",
+    "emergencyService": {
+      "title": "24/7 Emergency Service",
+      "subtitle": "We respond to {service} emergencies in {area} around the clock."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "local": "Local to {area}—fast response times",
+      "experience": "{years}+ years serving South Florida",
+      "licensed": "Licensed, insured, and certified",
+      "family": "Family-owned, customer-focused"
+    },
+    "process": {
+      "title": "Our {service} Process"
+    },
+    "otherAreas": {
+      "title": "Also Serving Nearby Areas",
+      "serviceIn": "{service} in {area}"
+    },
+    "contact": {
+      "title": "Get {service} Help in {area}",
+      "subtitle": "Contact us now for a free estimate. We're available 24/7 for emergencies and typically respond within 1 hour.",
+      "emergencyLine": "24/7 Emergency Line"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "Sorry, we couldn't find the page you're looking for. It may have been moved or doesn't exist."
+  },
+  "services": {
+    "waterDamage": {
+      "name": "Water Damage Restoration",
+      "shortName": "Water Damage",
+      "description": "Fast, professional water extraction and drying services to protect your property from further damage. We respond 24/7 to flooding emergencies.",
+      "features": {
+        "emergency": "24/7 emergency response",
+        "extraction": "Professional water extraction",
+        "drying": "Industrial-grade drying equipment",
+        "monitoring": "Moisture monitoring",
+        "insurance": "Insurance claim assistance"
+      },
+      "process": {
+        "step1": {
+          "title": "Emergency Contact",
+          "description": "Call us anytime, day or night. We typically arrive within 1-2 hours."
+        },
+        "step2": {
+          "title": "Assessment & Inspection",
+          "description": "We assess the damage, identify the water source, and create a restoration plan."
+        },
+        "step3": {
+          "title": "Water Extraction & Drying",
+          "description": "Using industrial equipment, we remove water and thoroughly dry the affected areas."
+        },
+        "step4": {
+          "title": "Restoration & Monitoring",
+          "description": "We restore your property and monitor moisture levels to prevent mold growth."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "How quickly can you respond to a water emergency?",
+          "answer": "We offer 24/7 emergency services and typically arrive within 1-2 hours of your call."
+        },
+        "q2": {
+          "question": "Do you work with insurance companies?",
+          "answer": "Yes, we work directly with all major insurance companies and can help with the claims process."
+        }
+      }
+    },
+    "fireRestoration": {
+      "name": "Fire Restoration",
+      "shortName": "Fire Damage",
+      "description": "Complete fire damage restoration including smoke removal, structural repair, and content cleaning. We help you rebuild after the devastation.",
+      "features": {
+        "boardUp": "Emergency board-up services",
+        "smoke": "Smoke and soot removal",
+        "structural": "Structural cleaning",
+        "content": "Content restoration",
+        "odor": "Odor elimination"
+      },
+      "process": {
+        "step1": {
+          "title": "Emergency Response",
+          "description": "We secure your property with board-up services and assess the fire damage."
+        },
+        "step2": {
+          "title": "Damage Assessment",
+          "description": "Our team documents all damage for insurance and creates a detailed restoration plan."
+        },
+        "step3": {
+          "title": "Cleanup & Restoration",
+          "description": "We remove debris, clean surfaces, and eliminate smoke odors throughout the property."
+        },
+        "step4": {
+          "title": "Final Restoration",
+          "description": "We restore your property to its pre-fire condition, including any necessary repairs."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "Can you remove smoke smell from my home?",
+          "answer": "Yes, we use specialized equipment and techniques to completely eliminate smoke odors."
+        },
+        "q2": {
+          "question": "How long does fire restoration take?",
+          "answer": "It depends on the extent of damage, but most projects take 2-6 weeks to complete."
+        }
+      }
+    },
+    "moldRestoration": {
+      "name": "Mold Restoration",
+      "shortName": "Mold Removal",
+      "description": "Professional mold remediation services to protect your family's health. We safely remove mold and address the source to prevent recurrence.",
+      "features": {
+        "removal": "Complete mold removal",
+        "hepa": "HEPA air filtration",
+        "antimicrobial": "Antimicrobial treatments",
+        "source": "Source identification",
+        "prevention": "Prevention recommendations"
+      },
+      "process": {
+        "step1": {
+          "title": "Inspection & Assessment",
+          "description": "We inspect your property, identify mold growth, and determine the moisture source."
+        },
+        "step2": {
+          "title": "Containment",
+          "description": "We isolate affected areas to prevent mold spores from spreading during removal."
+        },
+        "step3": {
+          "title": "Removal & Treatment",
+          "description": "Using HEPA filtration and antimicrobial treatments, we safely remove all mold."
+        },
+        "step4": {
+          "title": "Restoration & Prevention",
+          "description": "We restore affected areas and provide recommendations to prevent future growth."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "Is mold dangerous to my health?",
+          "answer": "Yes, mold can cause respiratory issues and allergic reactions. Professional removal is recommended."
+        },
+        "q2": {
+          "question": "Will the mold come back after removal?",
+          "answer": "Not if we address the moisture source. We identify and help fix the underlying cause."
+        }
+      }
+    },
+    "moistureInspection": {
+      "name": "Moisture & Mold Inspection",
+      "shortName": "Inspection",
+      "description": "Comprehensive moisture and mold inspections using advanced detection equipment. Early detection prevents costly damage and health risks.",
+      "features": {
+        "thermal": "Thermal imaging detection",
+        "moisture": "Moisture meter readings",
+        "airQuality": "Air quality testing",
+        "reports": "Detailed inspection reports",
+        "prevention": "Prevention recommendations"
+      },
+      "process": {
+        "step1": {
+          "title": "Visual Inspection",
+          "description": "We thoroughly examine your property for visible signs of moisture damage or mold."
+        },
+        "step2": {
+          "title": "Advanced Detection",
+          "description": "Using thermal cameras and moisture meters, we identify hidden water and mold."
+        },
+        "step3": {
+          "title": "Air Quality Testing",
+          "description": "We test indoor air quality to detect mold spores and assess contamination levels."
+        },
+        "step4": {
+          "title": "Detailed Report",
+          "description": "You receive a comprehensive report with findings and recommended next steps."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "How do you find hidden mold?",
+          "answer": "We use thermal imaging and moisture meters to detect mold behind walls and under floors."
+        },
+        "q2": {
+          "question": "Should I get an inspection before buying a home?",
+          "answer": "Yes, a moisture and mold inspection can reveal hidden issues before you purchase."
+        }
+      }
+    },
+    "smokeOdor": {
+      "name": "Smoke & Odor Removal",
+      "shortName": "Odor Removal",
+      "description": "Professional smoke and odor elimination services. We don't mask odors—we eliminate them at the source using advanced techniques.",
+      "features": {
+        "ozone": "Ozone treatment",
+        "fogging": "Thermal fogging",
+        "airScrubbing": "Air scrubbing",
+        "surface": "Surface cleaning",
+        "hvac": "HVAC cleaning"
+      },
+      "process": {
+        "step1": {
+          "title": "Odor Assessment",
+          "description": "We identify the source and extent of smoke or odor contamination."
+        },
+        "step2": {
+          "title": "Source Treatment",
+          "description": "We treat the source of odors with specialized cleaning agents and techniques."
+        },
+        "step3": {
+          "title": "Air Treatment",
+          "description": "Using ozone generators and air scrubbers, we purify the air throughout your property."
+        },
+        "step4": {
+          "title": "Verification",
+          "description": "We verify complete odor elimination and ensure your satisfaction."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "Can you remove cigarette smoke smell from a home?",
+          "answer": "Yes, we specialize in removing all types of smoke odors, including years of cigarette smoke."
+        },
+        "q2": {
+          "question": "How long does odor removal take?",
+          "answer": "Most projects are completed within 1-3 days, depending on the severity."
+        }
+      }
+    },
+    "decontamination": {
+      "name": "Decontamination",
+      "shortName": "Decontamination",
+      "description": "Professional biohazard cleanup and decontamination services. We handle hazardous materials safely and restore your property to a safe condition.",
+      "features": {
+        "biohazard": "Biohazard cleanup",
+        "trauma": "Trauma scene restoration",
+        "hazmat": "Hazardous material removal",
+        "disinfection": "Hospital-grade disinfection",
+        "disposal": "Proper disposal protocols"
+      },
+      "process": {
+        "step1": {
+          "title": "Initial Assessment",
+          "description": "We assess the situation and develop a safe cleanup and disposal plan."
+        },
+        "step2": {
+          "title": "Containment & Safety",
+          "description": "We establish containment and use proper PPE to ensure safe handling."
+        },
+        "step3": {
+          "title": "Removal & Disinfection",
+          "description": "We remove all hazardous materials and thoroughly disinfect all surfaces."
+        },
+        "step4": {
+          "title": "Verification & Restoration",
+          "description": "We verify the area is safe and restore it to a clean, livable condition."
+        }
+      },
+      "faqs": {
+        "q1": {
+          "question": "What types of biohazards do you handle?",
+          "answer": "We handle blood, bodily fluids, trauma scenes, hoarding situations, and other biohazards."
+        },
+        "q2": {
+          "question": "Is this service confidential?",
+          "answer": "Yes, we maintain complete confidentiality and use unmarked vehicles when requested."
+        }
+      }
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "{company} | Water Damage, Fire & Mold Restoration in South Florida",
+      "description": "Family-owned restoration company serving South Florida for over 20 years. Specializing in water damage, fire restoration, mold remediation, and emergency services."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about {company}, a family-owned restoration company serving South Florida for over {years} years."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Contact {company} for 24/7 emergency restoration services in South Florida. Call {phone} or send us a message."
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Professional restoration services including water damage, fire restoration, mold remediation, and more. 24/7 emergency service in South Florida."
+    },
+    "service": {
+      "title": "{service} | South Florida",
+      "description": "{description} Serving Broward County, Palm Beach, and West Palm Beach. Call {phone} for 24/7 emergency service."
+    },
+    "localService": {
+      "title": "{service} in {area}",
+      "description": "Professional {service} services in {area}, Florida. {years} years experience. 24/7 emergency service. Call {phone}."
+    },
+    "notFound": {
+      "title": "Service Not Found"
+    }
+  }
+}

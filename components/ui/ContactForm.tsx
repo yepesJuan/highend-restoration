@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { hubspot } from '@/lib/data/company';
 
 interface FormData {
@@ -12,6 +13,9 @@ interface FormData {
 }
 
 export default function ContactForm() {
+  const t = useTranslations('contactForm');
+  const tc = useTranslations('common');
+
   const [formData, setFormData] = useState<FormData>({
     firstname: '',
     lastname: '',
@@ -19,7 +23,9 @@ export default function ContactForm() {
     phone: '',
     message: '',
   });
-  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [status, setStatus] = useState<
+    'idle' | 'submitting' | 'success' | 'error'
+  >('idle');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -84,10 +90,8 @@ export default function ContactForm() {
             />
           </svg>
         </div>
-        <h4 className="heading-3 mb-2">Thank You!</h4>
-        <p className="text-charcoal/70">
-          We&apos;ve received your message and will contact you shortly.
-        </p>
+        <h4 className="heading-3 mb-2">{t('success.title')}</h4>
+        <p className="text-charcoal/70">{t('success.message')}</p>
       </div>
     );
   }
@@ -100,7 +104,7 @@ export default function ContactForm() {
             htmlFor="firstname"
             className="block text-sm font-medium text-charcoal mb-1"
           >
-            First Name *
+            {t('firstName')} {t('required')}
           </label>
           <input
             type="text"
@@ -112,7 +116,7 @@ export default function ContactForm() {
               setFormData({ ...formData, firstname: e.target.value })
             }
             className="w-full px-4 py-3 rounded-xl border border-charcoal/10 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none transition-colors"
-            placeholder="John"
+            placeholder={t('placeholders.firstName')}
           />
         </div>
         <div>
@@ -120,7 +124,7 @@ export default function ContactForm() {
             htmlFor="lastname"
             className="block text-sm font-medium text-charcoal mb-1"
           >
-            Last Name *
+            {t('lastName')} {t('required')}
           </label>
           <input
             type="text"
@@ -132,7 +136,7 @@ export default function ContactForm() {
               setFormData({ ...formData, lastname: e.target.value })
             }
             className="w-full px-4 py-3 rounded-xl border border-charcoal/10 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none transition-colors"
-            placeholder="Doe"
+            placeholder={t('placeholders.lastName')}
           />
         </div>
       </div>
@@ -142,7 +146,7 @@ export default function ContactForm() {
           htmlFor="email"
           className="block text-sm font-medium text-charcoal mb-1"
         >
-          Email *
+          {t('email')} {t('required')}
         </label>
         <input
           type="email"
@@ -152,7 +156,7 @@ export default function ContactForm() {
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           className="w-full px-4 py-3 rounded-xl border border-charcoal/10 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none transition-colors"
-          placeholder="john@example.com"
+          placeholder={t('placeholders.email')}
         />
       </div>
 
@@ -161,7 +165,7 @@ export default function ContactForm() {
           htmlFor="phone"
           className="block text-sm font-medium text-charcoal mb-1"
         >
-          Phone
+          {t('phone')}
         </label>
         <input
           type="tel"
@@ -170,7 +174,7 @@ export default function ContactForm() {
           value={formData.phone}
           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 rounded-xl border border-charcoal/10 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none transition-colors"
-          placeholder="(555) 123-4567"
+          placeholder={t('placeholders.phone')}
         />
       </div>
 
@@ -179,7 +183,7 @@ export default function ContactForm() {
           htmlFor="message"
           className="block text-sm font-medium text-charcoal mb-1"
         >
-          How can we help? *
+          {t('message')} {t('required')}
         </label>
         <textarea
           id="message"
@@ -189,14 +193,12 @@ export default function ContactForm() {
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
           className="w-full px-4 py-3 rounded-xl border border-charcoal/10 focus:border-terracotta focus:ring-1 focus:ring-terracotta outline-none transition-colors resize-none"
-          placeholder="Tell us about your situation..."
+          placeholder={t('placeholders.message')}
         />
       </div>
 
       {status === 'error' && (
-        <p className="text-fire text-sm">
-          Something went wrong. Please try again or call us directly.
-        </p>
+        <p className="text-fire text-sm">{t('error')}</p>
       )}
 
       <button
@@ -204,12 +206,10 @@ export default function ContactForm() {
         disabled={status === 'submitting'}
         className="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {status === 'submitting' ? 'Sending...' : 'Send Message'}
+        {status === 'submitting' ? tc('sending') : tc('sendMessage')}
       </button>
 
-      <p className="text-xs text-charcoal/50 text-center">
-        We typically respond within 1 hour
-      </p>
+      <p className="text-xs text-charcoal/50 text-center">{t('responseTime')}</p>
     </form>
   );
 }

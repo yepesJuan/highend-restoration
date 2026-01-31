@@ -1,20 +1,31 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import { useLocale, useTranslations } from 'next-intl';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { HiMenu, HiX, HiPhone } from 'react-icons/hi';
 import { company } from '@/lib/data/company';
 
-const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
-];
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const t = useTranslations('nav');
+  const tl = useTranslations('languageSwitcher');
+  const tc = useTranslations('common');
+  const locale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const navigation = [
+    { name: t('home'), href: '/' },
+    { name: t('services'), href: '/services' },
+    { name: t('about'), href: '/about' },
+    { name: t('contact'), href: '/contact' },
+  ];
+
+  const switchLocale = (newLocale: 'en' | 'es') => {
+    router.replace(pathname, { locale: newLocale });
+  };
 
   return (
     <header className="bg-white shadow-soft sticky top-0 z-50">
@@ -45,8 +56,32 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Phone + CTA (Desktop) */}
+          {/* Language Switcher + Phone + CTA (Desktop) */}
           <div className="hidden md:flex items-center gap-4">
+            {/* Language Switcher */}
+            <div className="flex items-center gap-1 border border-charcoal/10 rounded-lg p-1">
+              <button
+                onClick={() => switchLocale('en')}
+                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
+                  locale === 'en'
+                    ? 'bg-terracotta text-white'
+                    : 'text-charcoal hover:bg-charcoal/5'
+                }`}
+              >
+                {tl('en')}
+              </button>
+              <button
+                onClick={() => switchLocale('es')}
+                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
+                  locale === 'es'
+                    ? 'bg-terracotta text-white'
+                    : 'text-charcoal hover:bg-charcoal/5'
+                }`}
+              >
+                {tl('es')}
+              </button>
+            </div>
+
             <a
               href={company.phoneLink}
               className="flex items-center gap-2 text-charcoal hover:text-terracotta font-semibold transition-colors"
@@ -55,7 +90,7 @@ export default function Header() {
               {company.phoneFormatted}
             </a>
             <Link href="/contact" className="btn-primary">
-              Get Help Now
+              {tc('getHelpNow')}
             </Link>
           </div>
 
@@ -87,6 +122,37 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
+
+              {/* Mobile Language Switcher */}
+              <div className="flex items-center gap-2 py-2">
+                <button
+                  onClick={() => {
+                    switchLocale('en');
+                    setMobileMenuOpen(false);
+                  }}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    locale === 'en'
+                      ? 'bg-terracotta text-white'
+                      : 'bg-charcoal/5 text-charcoal'
+                  }`}
+                >
+                  {tl('english')}
+                </button>
+                <button
+                  onClick={() => {
+                    switchLocale('es');
+                    setMobileMenuOpen(false);
+                  }}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    locale === 'es'
+                      ? 'bg-terracotta text-white'
+                      : 'bg-charcoal/5 text-charcoal'
+                  }`}
+                >
+                  {tl('spanish')}
+                </button>
+              </div>
+
               <a
                 href={company.phoneLink}
                 className="flex items-center gap-2 text-terracotta font-semibold py-2"
@@ -99,7 +165,7 @@ export default function Header() {
                 className="btn-primary text-center mt-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Get Help Now
+                {tc('getHelpNow')}
               </Link>
             </div>
           </div>

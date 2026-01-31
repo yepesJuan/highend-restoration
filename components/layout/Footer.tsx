@@ -1,12 +1,28 @@
-import Link from 'next/link';
+'use client';
+
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { HiPhone, HiMail } from 'react-icons/hi';
 import { FaInstagram } from 'react-icons/fa';
 import { company } from '@/lib/data/company';
 import { services } from '@/lib/data/services';
 import { serviceAreas } from '@/lib/data/areas';
 
+// Map service slugs to translation keys
+const serviceTranslationKeys: Record<string, string> = {
+  'water-damage-restoration': 'waterDamage',
+  'fire-restoration': 'fireRestoration',
+  'mold-restoration': 'moldRestoration',
+  'moisture-mold-inspection': 'moistureInspection',
+  'smoke-odor-removal': 'smokeOdor',
+  decontamination: 'decontamination',
+};
+
 export default function Footer() {
+  const t = useTranslations('footer');
+  const ts = useTranslations('services');
+
   return (
     <footer className="bg-charcoal text-white">
       <div className="container-main py-16">
@@ -36,24 +52,27 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Services</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('services')}</h3>
             <ul className="space-y-2">
-              {services.map((service) => (
-                <li key={service.slug}>
-                  <Link
-                    href={`/services/${service.slug}`}
-                    className="text-gray-300 hover:text-terracotta transition-colors"
-                  >
-                    {service.shortName}
-                  </Link>
-                </li>
-              ))}
+              {services.map((service) => {
+                const translationKey = serviceTranslationKeys[service.slug];
+                return (
+                  <li key={service.slug}>
+                    <Link
+                      href={`/services/${service.slug}`}
+                      className="text-gray-300 hover:text-terracotta transition-colors"
+                    >
+                      {ts(`${translationKey}.shortName`)}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
           {/* Service Areas */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Service Areas</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('serviceAreas')}</h3>
             <ul className="space-y-2">
               {serviceAreas.map((area) => (
                 <li key={area.slug}>
@@ -65,7 +84,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('contactUs')}</h3>
             <div className="space-y-4">
               <a
                 href={company.phoneLink}
@@ -90,8 +109,10 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-gray-400 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} {company.name}. All rights
-            reserved.
+            {t('copyright', {
+              year: new Date().getFullYear(),
+              company: company.name,
+            })}
           </p>
         </div>
       </div>
