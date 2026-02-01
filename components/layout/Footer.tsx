@@ -76,7 +76,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {serviceAreas.map((area) => (
                 <li key={area.slug}>
-                  <span className="text-gray-300">{area.name}</span>
+                  <Link
+                    href={`/services/water-damage-restoration/${area.slug}`}
+                    className="text-gray-300 hover:text-terracotta transition-colors"
+                  >
+                    {area.name}
+                  </Link>
                 </li>
               ))}
             </ul>

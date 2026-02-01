@@ -197,7 +197,7 @@ export default async function LocalServicePage({ params }: Props) {
               </a>
               <Link
                 href="#contact"
-                className="btn-secondary bg-transparent border-white/20 text-white hover:bg-white/10"
+                className="inline-flex items-center justify-center px-6 py-3 font-medium rounded-xl border-2 border-white/30 text-white hover:bg-white/10 transition-colors duration-200"
               >
                 {tc('getFreeEstimate')}
               </Link>

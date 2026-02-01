@@ -98,7 +98,7 @@
     "callUsAnytime": "Call us anytime",
     "emailUs": "Email us",
     "availability": "Availability",
-    "servingAreas": "Serving Broward County, Palm Beach, and West Palm Beach",
+    "servingAreas": "Serving Broward, Palm Beach, West Palm Beach, and Miami-Dade",
     "formTitle": "Send Us a Message"
   },
   "contactForm": {
@@ -163,7 +163,7 @@
     },
     "serviceAreas": {
       "title": "Proudly Serving South Florida",
-      "subtitle": "From Fort Lauderdale to West Palm Beach, we're here for you.",
+      "subtitle": "From Jupiter to Miami Beach, we're here for you.",
       "broward": {
         "title": "Broward County",
         "cities": "Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs, and more"
@@ -175,6 +175,10 @@
       "westPalm": {
         "title": "West Palm Beach",
         "cities": "West Palm Beach, Palm Beach Gardens, Royal Palm Beach, and more"
+      },
+      "miamiDade": {
+        "title": "Miami-Dade County",
+        "cities": "Miami, Miami Beach, Hialeah, Coral Gables, Doral, and more"
       }
     },
     "cta": {
@@ -215,7 +219,7 @@
     "learnMoreAbout": "Learn more about {service}",
     "serviceAreas": {
       "title": "Serving All of South Florida",
-      "subtitle": "We provide restoration services throughout Broward County, Palm Beach County, and West Palm Beach. No matter where you are, help is just a call away."
+      "subtitle": "We provide restoration services throughout Broward County, Palm Beach County, West Palm Beach, and Miami-Dade County. No matter where you are, help is just a call away."
     },
     "cta": {
       "title": "Need Restoration Services?",
@@ -559,7 +563,7 @@
     },
     "service": {
       "title": "{service} | South Florida",
-      "description": "{description} Serving Broward County, Palm Beach, and West Palm Beach. Call {phone} for 24/7 emergency service."
+      "description": "{description} Serving Broward County, Palm Beach, West Palm Beach, and Miami-Dade County. Call {phone} for 24/7 emergency service."
     },
     "localService": {
       "title": "{service} in {area}",

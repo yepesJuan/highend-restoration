@@ -142,29 +142,49 @@ export default async function AboutPage({ params }: Props) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-2xl text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link
+              href="/services/water-damage-restoration/broward-county"
+              className="bg-white p-6 rounded-2xl text-center hover:shadow-lg transition-shadow"
+            >
               <h3 className="heading-3 mb-2">{t('serviceAreas.broward.title')}</h3>
               <p className="text-charcoal/70 text-sm">
                 {t('serviceAreas.broward.cities')}
               </p>
-            </div>
-            <div className="bg-white p-6 rounded-2xl text-center">
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/palm-beach"
+              className="bg-white p-6 rounded-2xl text-center hover:shadow-lg transition-shadow"
+            >
               <h3 className="heading-3 mb-2">
                 {t('serviceAreas.palmBeach.title')}
               </h3>
               <p className="text-charcoal/70 text-sm">
                 {t('serviceAreas.palmBeach.cities')}
               </p>
-            </div>
-            <div className="bg-white p-6 rounded-2xl text-center">
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/west-palm-beach"
+              className="bg-white p-6 rounded-2xl text-center hover:shadow-lg transition-shadow"
+            >
               <h3 className="heading-3 mb-2">
                 {t('serviceAreas.westPalm.title')}
               </h3>
               <p className="text-charcoal/70 text-sm">
                 {t('serviceAreas.westPalm.cities')}
               </p>
-            </div>
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/miami-dade-county"
+              className="bg-white p-6 rounded-2xl text-center hover:shadow-lg transition-shadow"
+            >
+              <h3 className="heading-3 mb-2">
+                {t('serviceAreas.miamiDade.title')}
+              </h3>
+              <p className="text-charcoal/70 text-sm">
+                {t('serviceAreas.miamiDade.cities')}
+              </p>
+            </Link>
           </div>
         </div>
       </section>

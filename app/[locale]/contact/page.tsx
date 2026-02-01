@@ -83,8 +83,8 @@ export default async function ContactPage({ params }: Props) {
                   <div className="w-12 h-12 bg-sage rounded-xl flex items-center justify-center flex-shrink-0">
                     <HiMail className="w-6 h-6 text-white" />
                   </div>
-                  <div>
-                    <p className="font-semibold text-lg group-hover:text-terracotta transition-colors">
+                  <div className="min-w-0">
+                    <p className="font-semibold text-lg group-hover:text-terracotta transition-colors break-all">
                       {company.email}
                     </p>
                     <p className="text-charcoal/60 text-sm">

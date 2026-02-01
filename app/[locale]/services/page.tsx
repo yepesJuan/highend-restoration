@@ -248,15 +248,30 @@ export default async function ServicesPage({ params }: Props) {
             {t('serviceAreas.subtitle')}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <span className="px-4 py-2 bg-cream rounded-full text-charcoal">
-              Broward County
-            </span>
-            <span className="px-4 py-2 bg-cream rounded-full text-charcoal">
-              Palm Beach County
-            </span>
-            <span className="px-4 py-2 bg-cream rounded-full text-charcoal">
+            <Link
+              href="/services/water-damage-restoration/broward-county"
+              className="px-4 py-2 bg-cream rounded-full text-charcoal hover:bg-terracotta hover:text-white transition-colors"
+            >
+              Broward
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/palm-beach"
+              className="px-4 py-2 bg-cream rounded-full text-charcoal hover:bg-terracotta hover:text-white transition-colors"
+            >
+              Palm Beach
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/west-palm-beach"
+              className="px-4 py-2 bg-cream rounded-full text-charcoal hover:bg-terracotta hover:text-white transition-colors"
+            >
               West Palm Beach
-            </span>
+            </Link>
+            <Link
+              href="/services/water-damage-restoration/miami-dade-county"
+              className="px-4 py-2 bg-cream rounded-full text-charcoal hover:bg-terracotta hover:text-white transition-colors"
+            >
+              Miami-Dade
+            </Link>
           </div>
         </div>
       </section>
@@ -276,7 +291,7 @@ export default async function ServicesPage({ params }: Props) {
             </a>
             <Link
               href="/contact"
-              className="btn-secondary border-white text-white hover:bg-white/10"
+              className="inline-flex items-center justify-center px-6 py-3 font-medium rounded-xl border-2 border-white text-white hover:bg-white/10 transition-colors duration-200"
             >
               {tc('contactUs')}
             </Link>

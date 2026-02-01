@@ -98,7 +98,7 @@
     "callUsAnytime": "Llámenos en cualquier momento",
     "emailUs": "Escríbanos",
     "availability": "Disponibilidad",
-    "servingAreas": "Sirviendo el Condado de Broward, Palm Beach y West Palm Beach",
+    "servingAreas": "Sirviendo Broward, Palm Beach, West Palm Beach y Miami-Dade",
     "formTitle": "Envíenos un Mensaje"
   },
   "contactForm": {
@@ -163,7 +163,7 @@
     },
     "serviceAreas": {
       "title": "Sirviendo Orgullosamente al Sur de Florida",
-      "subtitle": "Desde Fort Lauderdale hasta West Palm Beach, estamos aquí para usted.",
+      "subtitle": "Desde Jupiter hasta Miami Beach, estamos aquí para usted.",
       "broward": {
         "title": "Condado de Broward",
         "cities": "Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs y más"
@@ -175,6 +175,10 @@
       "westPalm": {
         "title": "West Palm Beach",
         "cities": "West Palm Beach, Palm Beach Gardens, Royal Palm Beach y más"
+      },
+      "miamiDade": {
+        "title": "Condado de Miami-Dade",
+        "cities": "Miami, Miami Beach, Hialeah, Coral Gables, Doral y más"
       }
     },
     "cta": {
@@ -215,7 +219,7 @@
     "learnMoreAbout": "Más información sobre {service}",
     "serviceAreas": {
       "title": "Sirviendo Todo el Sur de Florida",
-      "subtitle": "Proporcionamos servicios de restauración en todo el Condado de Broward, Condado de Palm Beach y West Palm Beach. No importa dónde esté, la ayuda está a solo una llamada."
+      "subtitle": "Proporcionamos servicios de restauración en todo el Condado de Broward, Condado de Palm Beach, West Palm Beach y Condado de Miami-Dade. No importa dónde esté, la ayuda está a solo una llamada."
     },
     "cta": {
       "title": "¿Necesita Servicios de Restauración?",
@@ -559,7 +563,7 @@
     },
     "service": {
       "title": "{service} | Sur de Florida",
-      "description": "{description} Sirviendo el Condado de Broward, Palm Beach y West Palm Beach. Llame al {phone} para servicio de emergencia 24/7."
+      "description": "{description} Sirviendo el Condado de Broward, Palm Beach, West Palm Beach y Condado de Miami-Dade. Llame al {phone} para servicio de emergencia 24/7."
     },
     "localService": {
       "title": "{service} en {area}",
