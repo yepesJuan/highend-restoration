@@ -5,33 +5,33 @@ export interface ServiceImage {
 
 export const serviceImages: Record<string, ServiceImage[]> = {
   'water-damage-restoration': [
-    { src: '/images/water-damage/waterdamage.JPG', alt: 'Water damage restoration project' },
-    { src: '/images/water-damage/waterdamage2.JPG', alt: 'Water damage restoration work' },
+    { src: '/images/water-damage/waterdamage.webp', alt: 'Water damage restoration project' },
+    { src: '/images/water-damage/waterdamage2.webp', alt: 'Water damage restoration work' },
   ],
   'fire-restoration': [
-    { src: '/images/fire-restoration/firerestoration.JPG', alt: 'Fire restoration project' },
-    { src: '/images/fire-restoration/firerestoration2.JPG', alt: 'Fire damage restoration work' },
-    { src: '/images/fire-restoration/firerestoration3.JPG', alt: 'Fire restoration in progress' },
-    { src: '/images/fire-restoration/firerestoration4.JPG', alt: 'Completed fire restoration' },
+    { src: '/images/fire-restoration/firerestoration.webp', alt: 'Fire restoration project' },
+    { src: '/images/fire-restoration/firerestoration2.webp', alt: 'Fire damage restoration work' },
+    { src: '/images/fire-restoration/firerestoration3.webp', alt: 'Fire restoration in progress' },
+    { src: '/images/fire-restoration/firerestoration4.webp', alt: 'Completed fire restoration' },
   ],
   'mold-restoration': [
-    { src: '/images/mold-restoration/moldrestoration.JPG', alt: 'Mold restoration project' },
-    { src: '/images/mold-restoration/moldrestoration2.JPG', alt: 'Mold remediation work' },
-    { src: '/images/mold-restoration/moldrestoration3.JPG', alt: 'Mold removal in progress' },
+    { src: '/images/mold-restoration/moldrestoration.webp', alt: 'Mold restoration project' },
+    { src: '/images/mold-restoration/moldrestoration2.webp', alt: 'Mold remediation work' },
+    { src: '/images/mold-restoration/moldrestoration3.webp', alt: 'Mold removal in progress' },
   ],
   'moisture-mold-inspection': [
-    { src: '/images/moisture-inspection/moisturemold.JPG', alt: 'Moisture and mold inspection' },
-    { src: '/images/moisture-inspection/moisturemold2.JPG', alt: 'Moisture detection equipment' },
-    { src: '/images/moisture-inspection/moisturemold3.JPG', alt: 'Mold inspection process' },
+    { src: '/images/moisture-inspection/moisturemold.webp', alt: 'Moisture and mold inspection' },
+    { src: '/images/moisture-inspection/moisturemold2.webp', alt: 'Moisture detection equipment' },
+    { src: '/images/moisture-inspection/moisturemold3.webp', alt: 'Mold inspection process' },
   ],
   'smoke-odor-removal': [
-    { src: '/images/smoke-odor/smokeoder.JPG', alt: 'Smoke and odor removal project' },
-    { src: '/images/smoke-odor/smokeodor2.JPG', alt: 'Odor removal treatment' },
+    { src: '/images/smoke-odor/smokeoder.webp', alt: 'Smoke and odor removal project' },
+    { src: '/images/smoke-odor/smokeodor2.webp', alt: 'Odor removal treatment' },
   ],
   'decontamination': [
-    { src: '/images/decontamination/decontamination.JPG', alt: 'Decontamination project' },
-    { src: '/images/decontamination/decontamination2.JPG', alt: 'Biohazard cleanup' },
-    { src: '/images/decontamination/decontamination3.JPG', alt: 'Decontamination in progress' },
+    { src: '/images/decontamination/decontamination.webp', alt: 'Decontamination project' },
+    { src: '/images/decontamination/decontamination2.webp', alt: 'Biohazard cleanup' },
+    { src: '/images/decontamination/decontamination3.webp', alt: 'Decontamination in progress' },
   ],
 };
 

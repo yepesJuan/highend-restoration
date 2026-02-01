@@ -14,43 +14,43 @@ export default function Hero() {
 
   const heroImages = [
     {
-      src: '/images/truck.JPG',
+      src: '/images/truck.webp',
       labelKey: 'truck',
       color: 'bg-terracotta',
       position: 'object-bottom',
     },
     {
-      src: '/images/water-damage/waterdamage.JPG',
+      src: '/images/water-damage/waterdamage.webp',
       labelKey: 'waterDamage',
       color: 'bg-water',
       position: 'object-center',
     },
     {
-      src: '/images/fire-restoration/firerestoration2.JPG',
+      src: '/images/fire-restoration/firerestoration2.webp',
       labelKey: 'fireRestoration',
       color: 'bg-fire',
       position: 'object-center',
     },
     {
-      src: '/images/mold-restoration/moldrestoration2.JPG',
+      src: '/images/mold-restoration/moldrestoration2.webp',
       labelKey: 'moldRestoration',
       color: 'bg-mold',
       position: 'object-center',
     },
     {
-      src: '/images/moisture-inspection/moisturemold3.JPG',
+      src: '/images/moisture-inspection/moisturemold3.webp',
       labelKey: 'moistureInspection',
       color: 'bg-sage',
       position: 'object-center',
     },
     {
-      src: '/images/smoke-odor/smokeodor2.JPG',
+      src: '/images/smoke-odor/smokeodor2.webp',
       labelKey: 'smokeOdor',
       color: 'bg-charcoal',
       position: 'object-center',
     },
     {
-      src: '/images/decontamination/decontamination3.JPG',
+      src: '/images/decontamination/decontamination3.webp',
       labelKey: 'decontamination',
       color: 'bg-biohazard',
       position: 'object-top',
@@ -132,27 +132,19 @@ export default function Hero() {
           {/* Right side - Rotating images */}
           <div className="hidden lg:block relative">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-soft-lg">
-              {heroImages.map((image, index) => {
-                // Only render current, previous, and next images for performance
-                const isVisible = index === currentIndex;
-                const isPrev = index === (currentIndex - 1 + heroImages.length) % heroImages.length;
-                const isNext = index === (currentIndex + 1) % heroImages.length;
-                if (!isVisible && !isPrev && !isNext) return null;
-
-                return (
-                  <Image
-                    key={image.src}
-                    src={image.src}
-                    alt={t(`imageLabels.${image.labelKey}`)}
-                    fill
-                    className={`object-cover ${image.position} transition-opacity duration-700 ${
-                      isVisible ? 'opacity-100' : 'opacity-0'
-                    }`}
-                    priority={index === 0}
-                    sizes="(max-width: 1024px) 0vw, 50vw"
-                  />
-                );
-              })}
+              {heroImages.map((image, index) => (
+                <Image
+                  key={image.src}
+                  src={image.src}
+                  alt={t(`imageLabels.${image.labelKey}`)}
+                  fill
+                  className={`object-cover ${image.position} transition-opacity duration-700 ${
+                    index === currentIndex ? 'opacity-100' : 'opacity-0'
+                  }`}
+                  priority={index === 0}
+                  sizes="(max-width: 1024px) 0vw, 50vw"
+                />
+              ))}
 
               {/* Service label */}
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent">

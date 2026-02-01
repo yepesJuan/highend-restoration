@@ -62,6 +62,7 @@ export default function Header() {
             <div className="flex items-center gap-1 border border-charcoal/10 rounded-lg p-1">
               <button
                 onClick={() => switchLocale('en')}
+                aria-label="Switch to English"
                 className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
                   locale === 'en'
                     ? 'bg-terracotta text-white'
@@ -72,6 +73,7 @@ export default function Header() {
               </button>
               <button
                 onClick={() => switchLocale('es')}
+                aria-label="Cambiar a Español"
                 className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
                   locale === 'es'
                     ? 'bg-terracotta text-white'
@@ -99,6 +101,8 @@ export default function Header() {
             type="button"
             className="md:hidden p-2 text-charcoal"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? (
               <HiX className="w-6 h-6" />
@@ -130,6 +134,7 @@ export default function Header() {
                     switchLocale('en');
                     setMobileMenuOpen(false);
                   }}
+                  aria-label="Switch to English"
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     locale === 'en'
                       ? 'bg-terracotta text-white'
@@ -143,6 +148,7 @@ export default function Header() {
                     switchLocale('es');
                     setMobileMenuOpen(false);
                   }}
+                  aria-label="Cambiar a Español"
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     locale === 'es'
                       ? 'bg-terracotta text-white'
