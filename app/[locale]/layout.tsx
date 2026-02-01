@@ -77,8 +77,8 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} className={inter.variable}>
-      <GoogleAnalytics />
       <body className="min-h-screen flex flex-col">
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>
