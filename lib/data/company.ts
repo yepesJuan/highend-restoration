@@ -14,7 +14,7 @@ export const company = {
     'Family-owned restoration company serving South Florida for over 20 years. Specializing in water damage, fire restoration, mold remediation, and emergency services.',
   address: {
     region: 'South Florida',
-    areas: ['Broward County', 'Palm Beach County', 'West Palm Beach'],
+    areas: ['Broward County', 'Palm Beach County', 'West Palm Beach', 'Miami-Dade County'],
   },
   hours: {
     display: '24/7 Emergency Service',

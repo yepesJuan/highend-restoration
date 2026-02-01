@@ -36,7 +36,7 @@
     "title": "Restoring What",
     "titleHighlight": "Matters Most",
     "subtitle": "{years} Years Serving South Florida Families",
-    "serviceAreas": "Broward County • Palm Beach • West Palm Beach",
+    "serviceAreas": "Broward • Palm Beach • West Palm Beach • Miami-Dade",
     "trustLicensed": "Licensed & Insured",
     "trustFamily": "Family Owned",
     "trustFast": "Fast Response",
@@ -197,7 +197,7 @@
       "emergencyService": "24/7 Emergency Service",
       "emergencySubtitle": "We're always available for emergencies",
       "serviceAreasTitle": "Service Areas",
-      "serviceAreasSubtitle": "Broward County, Palm Beach County, West Palm Beach",
+      "serviceAreasSubtitle": "Broward County, Palm Beach County, West Palm Beach, Miami-Dade County",
       "instagramSubtitle": "Follow us for project updates"
     },
     "emergency": {
@@ -540,6 +540,7 @@
     }
   },
   "metadata": {
+    "keywords": "water damage restoration, fire restoration, mold remediation, emergency restoration, South Florida, Miami-Dade County, Broward County, Palm Beach, West Palm Beach, 24/7 emergency service, flood damage, smoke damage, water extraction, mold removal, Miami restoration",
     "home": {
       "title": "{company} | Water Damage, Fire & Mold Restoration in South Florida",
       "description": "Family-owned restoration company serving South Florida for over 20 years. Specializing in water damage, fire restoration, mold remediation, and emergency services."

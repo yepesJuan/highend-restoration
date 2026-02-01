@@ -36,7 +36,7 @@
     "title": "Restaurando Lo Que",
     "titleHighlight": "Más Importa",
     "subtitle": "{years} Años Sirviendo a Familias del Sur de Florida",
-    "serviceAreas": "Condado de Broward • Palm Beach • West Palm Beach",
+    "serviceAreas": "Broward • Palm Beach • West Palm Beach • Miami-Dade",
     "trustLicensed": "Licenciados y Asegurados",
     "trustFamily": "Empresa Familiar",
     "trustFast": "Respuesta Rápida",
@@ -197,7 +197,7 @@
       "emergencyService": "Servicio de Emergencia 24/7",
       "emergencySubtitle": "Siempre estamos disponibles para emergencias",
       "serviceAreasTitle": "Áreas de Servicio",
-      "serviceAreasSubtitle": "Condado de Broward, Condado de Palm Beach, West Palm Beach",
+      "serviceAreasSubtitle": "Condado de Broward, Condado de Palm Beach, West Palm Beach, Condado de Miami-Dade",
       "instagramSubtitle": "Síganos para actualizaciones de proyectos"
     },
     "emergency": {
@@ -540,6 +540,7 @@
     }
   },
   "metadata": {
+    "keywords": "restauración de daños por agua, restauración por incendio, remediación de moho, restauración de emergencia, Sur de Florida, Condado de Miami-Dade, Condado de Broward, Palm Beach, West Palm Beach, servicio de emergencia 24/7, daños por inundación, daños por humo, extracción de agua, eliminación de moho, restauración en Miami",
     "home": {
       "title": "{company} | Restauración de Daños por Agua, Incendio y Moho en el Sur de Florida",
       "description": "Empresa familiar de restauración sirviendo al Sur de Florida por más de 20 años. Especializados en daños por agua, restauración por incendio, remediación de moho y servicios de emergencia."

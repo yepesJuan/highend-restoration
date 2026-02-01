@@ -67,6 +67,29 @@ export const serviceAreas: ServiceArea[] = [
       'Haverhill',
     ],
   },
+  {
+    slug: 'miami-dade-county',
+    name: 'Miami-Dade County',
+    shortName: 'Miami-Dade',
+    description: 'Serving all of Miami-Dade County including Miami, Miami Beach, Hialeah, and surrounding communities.',
+    cities: [
+      'Miami',
+      'Miami Beach',
+      'Hialeah',
+      'Coral Gables',
+      'Homestead',
+      'North Miami',
+      'Doral',
+      'Kendall',
+      'Miami Gardens',
+      'Aventura',
+      'Key Biscayne',
+      'Pinecrest',
+      'Cutler Bay',
+      'Miami Lakes',
+      'Sunny Isles Beach',
+    ],
+  },
 ];
 
 export function getAreaBySlug(slug: string): ServiceArea | undefined {

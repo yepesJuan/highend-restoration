@@ -33,17 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: `%s | ${company.name}`,
     },
     description: t('home.description'),
-    keywords: [
-      'water damage restoration',
-      'fire restoration',
-      'mold remediation',
-      'emergency restoration',
-      'South Florida',
-      'Broward County',
-      'Palm Beach',
-      'West Palm Beach',
-      '24/7 emergency service',
-    ],
+    keywords: t('keywords'),
     authors: [{ name: company.name }],
     openGraph: {
       type: 'website',

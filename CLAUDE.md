@@ -39,15 +39,16 @@ Complete website rebuild for a family-owned restoration business serving South F
 5. Smoke & Odor Removal
 6. Decontamination
 
-## Service Areas (3)
+## Service Areas (4)
 - Broward County
 - Palm Beach County
 - West Palm Beach
+- Miami-Dade County
 
-## Pages (66 total - bilingual)
+## Pages (80 total - bilingual)
 - Homepage, About, Contact, Services hub (x2 locales)
 - 6 individual service pages (x2 locales)
-- 18 local SEO pages (6 services × 3 areas) (x2 locales)
+- 24 local SEO pages (6 services × 4 areas) (x2 locales)
 - Sitemap.xml, robots.txt
 - **Languages:** English (/en), Spanish (/es)
 
@@ -71,19 +72,19 @@ vercel --prod    # Deploy to Vercel
 - [x] Add Google Search Console verification
 
 ### i18n (Spanish Support) - Verification
-- [ ] Test language switcher on all pages (EN/ES toggle)
-- [ ] Verify hreflang tags in page source
-- [ ] Check sitemap.xml includes both /en and /es URLs
+- [x] Test language switcher on all pages (EN/ES toggle)
+- [x] Verify hreflang tags in page source
+- [x] Check sitemap.xml includes both /en and /es URLs (56 URLs total)
 - [ ] Have native Spanish speaker review translations
 - [ ] Test contact form submission in Spanish
 
 ### SEO
-- [ ] Add Spanish-specific keywords to metadata
+- [x] Add Spanish-specific keywords to metadata
 - [x] Submit updated sitemap to Google Search Console
-- [ ] Verify JSON-LD schemas render correctly in both languages
+- [x] Verify JSON-LD schemas render correctly in both languages
+- [x] Auto-redirect based on browser language preference
 
 ### Optional Enhancements
-- [ ] Auto-redirect based on browser language preference
 - [ ] Add testimonials/reviews section
 - [ ] Add before/after project gallery
 

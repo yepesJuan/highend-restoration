@@ -43,6 +43,11 @@ export default async function HomePage({ params }: Props) {
         containedInPlace: { '@type': 'State', name: 'Florida' },
       },
       {
+        '@type': 'City',
+        name: 'Miami',
+        containedInPlace: { '@type': 'State', name: 'Florida' },
+      },
+      {
         '@type': 'AdministrativeArea',
         name: 'Broward County',
         containedInPlace: { '@type': 'State', name: 'Florida' },
@@ -50,6 +55,11 @@ export default async function HomePage({ params }: Props) {
       {
         '@type': 'AdministrativeArea',
         name: 'Palm Beach County',
+        containedInPlace: { '@type': 'State', name: 'Florida' },
+      },
+      {
+        '@type': 'AdministrativeArea',
+        name: 'Miami-Dade County',
         containedInPlace: { '@type': 'State', name: 'Florida' },
       },
     ],
