@@ -94,46 +94,14 @@ export default async function ServicesPage({ params }: Props) {
       <section className="section-padding bg-cream">
         <div className="container-main">
           <div className="grid gap-8">
-            {services.map((service, index) => {
+            {services.map((service) => {
               const Icon = iconMap[service.icon] || FaWater;
               const colorClass = colorMap[service.color] || colorMap.water;
               const translationKey = serviceTranslationKeys[service.slug];
 
               // Get translated features
-              const featuresKey = `${translationKey}.features`;
               const features = service.features.map((_, i) => {
-                const featureKeys = [
-                  'emergency',
-                  'extraction',
-                  'drying',
-                  'monitoring',
-                  'insurance',
-                  'boardUp',
-                  'smoke',
-                  'structural',
-                  'content',
-                  'odor',
-                  'removal',
-                  'hepa',
-                  'antimicrobial',
-                  'source',
-                  'prevention',
-                  'thermal',
-                  'moisture',
-                  'airQuality',
-                  'reports',
-                  'ozone',
-                  'fogging',
-                  'airScrubbing',
-                  'surface',
-                  'hvac',
-                  'biohazard',
-                  'trauma',
-                  'hazmat',
-                  'disinfection',
-                  'disposal',
-                ];
-                // Get the feature key based on index from the translation file
+                // Map of service keys to their feature translation keys
                 const serviceFeatureMap: Record<string, string[]> = {
                   waterDamage: [
                     'emergency',

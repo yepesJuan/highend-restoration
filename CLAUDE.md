@@ -7,12 +7,13 @@ Complete website rebuild for a family-owned restoration business serving South F
 **Domain:** highendrestoration.org ✓
 
 ## Tech Stack
-- Next.js 14 (App Router)
-- TypeScript
+- Next.js 16 (App Router)
+- React 19
+- TypeScript 5.4
 - Tailwind CSS
 - next-intl (i18n - English/Spanish)
 - HubSpot CRM (contact form)
-- Vercel hosting
+- Vercel hosting (Node.js 24)
 
 ## Key Files & Structure
 ```
@@ -66,27 +67,52 @@ vercel --prod    # Deploy to Vercel
 
 ## Pending Tasks
 
-### Infrastructure
-- [x] Connect custom domain in Vercel dashboard
-- [x] Set up Google Analytics (GA4: G-4ST9R05VNJ)
-- [x] Add Google Search Console verification
-
-### i18n (Spanish Support) - Verification
-- [x] Test language switcher on all pages (EN/ES toggle)
-- [x] Verify hreflang tags in page source
-- [x] Check sitemap.xml includes both /en and /es URLs (56 URLs total)
+### Manual/Business Tasks
 - [ ] Have native Spanish speaker review translations
 - [ ] Test contact form submission in Spanish
-
-### SEO
-- [x] Add Spanish-specific keywords to metadata
-- [x] Submit updated sitemap to Google Search Console
-- [x] Verify JSON-LD schemas render correctly in both languages
-- [x] Auto-redirect based on browser language preference
+- [ ] Verify Google Analytics is tracking (check Realtime in GA4)
 
 ### Optional Enhancements
 - [ ] Add testimonials/reviews section
 - [ ] Add before/after project gallery
+
+## Completed (Session Feb 1, 2026)
+
+### Infrastructure
+- [x] Connect custom domain in Vercel dashboard
+- [x] Set up Google Analytics (GA4: G-4ST9R05VNJ)
+- [x] Add Google Search Console verification
+- [x] Added Node/npm engine requirements to package.json
+
+### i18n & SEO
+- [x] Language switcher working on all pages
+- [x] hreflang tags verified
+- [x] Sitemap includes both locales (72 URLs)
+- [x] Spanish-specific keywords in metadata
+- [x] JSON-LD schemas render in both languages
+- [x] Auto-redirect based on browser language
+
+### Miami-Dade County Expansion
+- [x] Added as 4th service area (24 new local SEO pages)
+- [x] Updated all references (hero, about, services, footer, keywords)
+- [x] Service areas now clickable links throughout site
+
+### Performance Optimizations
+- [x] Compressed all images to WebP (60% smaller)
+- [x] Hero carousel lazy loads 3 images at a time
+- [x] Lighthouse scores: 90%+ performance on all pages
+- [x] Added aria-labels for accessibility (96% score)
+
+### Bug Fixes
+- [x] Fixed white button text on colored backgrounds
+- [x] Fixed email overflow on mobile (contact page)
+
+### Framework Upgrade
+- [x] Upgraded to Node.js 24 / npm 11 (engine requirements)
+- [x] Upgraded to Next.js 16.1.6 (Turbopack stable)
+- [x] Upgraded to React 19
+- [x] Upgraded TypeScript to 5.4
+- [x] Updated framer-motion to v12 (React 19 compatible)
 
 ## Design Decisions
 - **Style:** Warm & approachable (family business feel)
